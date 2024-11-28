@@ -3,7 +3,7 @@ body {
 	background-color: #b9e799;
     	margin: 0; /* Убирает отступы по умолчанию */
     	padding: 20px; /* Отступы внутри body */
-	color: #2f491d;
+	color: #2f491d; /* Цвет текста */
 }
 
 header {
@@ -13,12 +13,12 @@ header {
 
 h1 {
     	text-align: center; /* Выравнивание заголовка по центру */
-    	color: #254d09;
+    	color: #254d09; /* Цвет текста заголовка */
 }
 
 h2 {
     	text-align: center; /* Выравнивание заголовка по центру */
-    	color: #254d09;
+    	color: #254d09; /* Цвет текста заголовка */
 }
 
 nav ul {
@@ -34,7 +34,7 @@ nav ul li {
 footer {
     	text-align: center; /* Выравнивание текста футера по центру */
     	margin-top: 20px; /* Отступ сверху */
-	color: #2f491d;
+	color: #2f491d; /* Цвет текста */
 }
 
 .responsive-image {
@@ -64,7 +64,7 @@ td {
     	padding: 10px; /* Отступы внутри ячеек */
     	border: 1px solid #ccc; /* Граница ячеек */
     	padding: 10px; /* Отступы внутри ячеек */
-	color: #2f491d;
+	color: #2f491d; /* Цвет текста */
     	text-align: left; /* Выравнивание текста по левому краю */
 }
 
@@ -80,7 +80,7 @@ tr:nth-child(even) {
     	background-color: #a6e77b; /* Цвет фона для чётных строк */
 }
 
-tbody tr:nth-child(odd) {
+tr:nth-child(odd) {
     	background-color: #b5ec90; /* Цвет фона для нечётных строк */
 }
 
