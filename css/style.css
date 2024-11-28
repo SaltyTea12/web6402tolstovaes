@@ -1,0 +1,113 @@
+body {
+    	font-family: Comic Sans, sans-serif; /* Основной шрифт для всего текста */
+	background-color: #b9e799;
+    	margin: 0; /* Убирает отступы по умолчанию */
+    	padding: 20px; /* Отступы внутри body */
+	color: #2f491d;
+}
+
+header {
+    	background-color: #9be06b; /* Цвет фона для заголовка */
+    	padding: 10px 0; /* Отступы сверху и снизу */
+}
+
+h1 {
+    	text-align: center; /* Выравнивание заголовка по центру */
+    	color: #254d09;
+}
+
+h2 {
+    	text-align: center; /* Выравнивание заголовка по центру */
+    	color: #254d09;
+}
+
+nav ul {
+    	list-style-type: none; /* Убирает маркеры списка */
+    	padding: 0; /* Убирает отступы */
+}
+
+nav ul li {
+    	display: inline; /* Выводит элементы списка в одну строку */
+    	margin-right: 15px; /* Отступ между элементами списка */
+}
+
+footer {
+    	text-align: center; /* Выравнивание текста футера по центру */
+    	margin-top: 20px; /* Отступ сверху */
+	color: #2f491d;
+}
+
+.responsive-image {
+	display: block; /* Делает изображение блочным элементом */
+    	margin-left: auto; /* Устанавливает автоматические отступы слева */
+    	margin-right: auto; /* Устанавливает автоматические отступы справа */
+    	max-width: 100%; /* Ограничивает ширину изображения до 100% от родительского контейнера */
+    	height: auto; /* Сохраняет пропорции изображения */
+}
+
+.teerlist-image {
+	display: block; /* Делает изображение блочным элементом */
+    	margin-left: auto; /* Устанавливает автоматические отступы слева */
+    	margin-right: auto; /* Устанавливает автоматические отступы справа */
+    	max-width: 100%; /* Ограничивает ширину изображения до 100% от родительского контейнера */
+    	height: auto; /* Сохраняет пропорции изображения */
+}
+
+table {
+    	width: 100%; /* Ширина таблицы 100% от родительского контейнера */
+    	border-collapse: collapse; /* Убирает двойные границы */
+}
+
+
+td {
+    	border: 1px solid #ccc; /* Граница ячеек */
+    	padding: 10px; /* Отступы внутри ячеек */
+    	border: 1px solid #ccc; /* Граница ячеек */
+    	padding: 10px; /* Отступы внутри ячеек */
+	color: #2f491d;
+    	text-align: left; /* Выравнивание текста по левому краю */
+}
+
+th {
+    	border: 1px solid #ccc; /* Граница ячеек */
+    	padding: 10px; /* Отступы внутри ячеек */
+    	background-color: #97d86b; /* Цвет фона для заголовков */
+    	color: #254d09; /* Цвет текста заголовков */
+    	text-align: center; /* Выравнивание текста по левому краю */
+}
+
+tr:nth-child(even) {
+    	background-color: #a6e77b; /* Цвет фона для чётных строк */
+}
+
+tbody tr:nth-child(odd) {
+    	background-color: #b5ec90; /* Цвет фона для нечётных строк */
+}
+
+tr:hover {
+    	background-color: #92d168; /* Цвет фона при наведении на строку */
+}
+
+.right-align {
+    	text-align: right; /* Выравнивание текста по правому краю */
+}
+
+.styled-link {
+    	color: #1d320f; /* Цвет текста */
+    	text-decoration: none; /* Убирает подчеркивание */
+    	font-weight: bold; /* Жирный текст */
+    	transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+.styled-link:hover {
+    	color: #214707; /* Цвет при наведении */
+    	text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+.styled-link:active {
+    	color: #2b6604; /* Цвет при нажатии */
+}
+
+.link-container {
+    text-align: center; /* Выравнивание текста по центру для контейнера */
+}
