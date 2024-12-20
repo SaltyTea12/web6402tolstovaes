@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Рейтинг мемов</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="description" content="Тир-лист моих любимых мемов и страничка смеха">
+	<meta name="keywords" content="мемы, котики, учеба, веселье, хихихаха">
+</head>
+<body>
+	
+	<div id="fireworks-container"></div>
+
+    <header>
+        <h1>Подборка мемов</h1>
+        <nav>
+            	<ul>
+						<li><a href="index.html" class="styled-link">Главная</a></li>
+						<li><a href="teerlist.html" class="styled-link">Тир-лист</a></li>
+						<li><a href="lenta.html" class="styled-link">Лента мемов</a></li>
+						<li><a href="aboutme.html" class="styled-link">Обо мне</a></li>
+            	</ul>
+		</nav>
+	</header>
+
+	
+	<main>
+		<section>
+			<h2>Мотивация</h2>
+			<p>Приветствую всех на моей страничке! Здесь вы найдете самые лучшие мемы (ну хотя бы по моему мнению) на тему учебы и не только! Наслаждайтесь!</p>
+			<p>P.S. В моем телефоне находится папочка на 600+ картинок с мемами:)</p>
+			<img src = "../images/index/index_1.jpg" alt = "Приветствую!" class="responsive-image">
+		</section>
+		<div class="link-container">
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="styled-link">Нажми на меня</a>
+		</div>
+
+		<div class="container">
+			<h1>Оцените сайтик</h1>
+			<form id="ratingForm">
+				<label for="name">Ваше имя:</label>
+				<input type="text" id="name" name="name" required>
+				
+				<div class="star-rating">
+					<input type="radio" id="star5" name="rating" value="5" />
+					<label for="star5" class="star">&#9733;</label>
+					<input type="radio" id="star4" name="rating" value="4" />
+					<label for="star4" class="star">&#9733;</label>
+					<input type="radio" id="star3" name="rating" value="3" />
+					<label for="star3" class="star">&#9733;</label>
+					<input type="radio" id="star2" name="rating" value="2" />
+					<label for="star2" class="star">&#9733;</label>
+					<input type="radio" id="star1" name="rating" value="1" />
+					<label for="star1" class="star">&#9733;</label>
+				</div>
+				<button type="submit" class="button1">Отправить оценку</button>
+			</form>
+		
+			<div id="responseMessage"></div>
+		</div>
+
+	</main>
+	<footer>
+        	<p>© 2024 Salty Tea</p>
+    </footer>
+
+	<script src="../scripts/forms.js"></script>
+	<script src="../scripts/firework.js"></script>
+</body>
+</html>
